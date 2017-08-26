@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  
+  <title>GifTastic Entertainment</title>
+
+  <script src="https://code.jquery.com/jquery-2.2.3.js" integrity="sha256-laXWtGydpwqJ8JA+X9x2miwmaiKhn8tVmOVEigRNtP4=" crossorigin="anonymous"></script>
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Boogaloo|Shrikhand|Frijole" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!--Title-->
+ <br><center> <div class="container">
+    <div class="jumbotron">
+      <h1 class="text-center"><strong>Giftastic Movies</strong></h1>
+      <h2 class="text-center" id="instructions">Click on a classic!</h2><br>
+    </div> </center>
+
+    <!-- Buttons -->
+    <center><div class="row" id="buttonPanel">
+    </div></center>
+
+    <!-- Gifs -->
+    <br><div class="row">
+      <div class="col-lg-10" id="gifPanel">
+      </div>
+
+      <div class="col-lg-2 formPanel"> 
+       <center> <form id="movie-form">
+          <br><label for="movie-input" class="inputLabel">Add a Movie!</label>
+          <input type="text" id="movie"><br>
+
+          <!-- Button for new movie to be added -->
+          <input id="add-movie" type="submit" value="Submit">
+        </form></center>
+      </div> 
+    </div> 
+  </div> 
+
+  <script type="text/javascript" src="javascript.js"></script>
+
+</body>
+</html>
